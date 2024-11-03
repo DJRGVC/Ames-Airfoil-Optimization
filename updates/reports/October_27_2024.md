@@ -12,7 +12,13 @@ I am currently facing challenges with XFOIL parameters and convergence issues at
 
 ## Video
 
-[View XFOIL Simulation Video](../media/xfoil_automated_testing.mp4)
+[View XFOIL Simulation Video]()
+
+<video width="640" height="360" controls>
+  <source src="../media/xfoil_automated_testing.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## XFOIL Configuration Details
 
