@@ -24,7 +24,8 @@ The workflow involves training a predictive model on XFOIL simulation data, whic
 
 ## Recent Updates
 
-- [Update 1: Placeholder for Future Updates](updates/reports/placeholder.md)
+- [Update 1: XFOIL Setup + Automation, Towards Optimization](updates/reports/October_27_2024.md)
+- [Update 2: Data Collection, XFOIL Model Training](updates/reports/November_3_2024.md)
 
 
 ## Objectives
@@ -34,13 +35,15 @@ The workflow involves training a predictive model on XFOIL simulation data, whic
 3. **3D Expansion**: Extend the optimization framework from individual airfoils to entire wings, incorporating three-dimensional aerodynamic factors.
 
 
+
 ## Roadmap
 
-- [x] Generate XFOIL training data for arbitrary 4- and 5-digit NACA airfoils using automated scripts.
-- [] Design a reward system for airfoil optimization based on XFOIL outputs.
-- [] Train neural networks on the generated data to predict airfoil performance metrics.
-- [] Develop an iterative generator capable of producing optimized airfoil shapes.
-- [] Scale the system to handle 3D simulations for entire wing designs.
+  [x] Generate XFOIL training data for arbitrary 4- and 5-digit NACA airfoils using automated scripts.
+  [] Design a reward system for airfoil optimization based on XFOIL outputs.
+  [] Train neural networks on the generated data to predict airfoil performance metrics.
+  [] Develop an iterative generator capable of producing optimized airfoil shapes.
+  [] Scale the system to handle 3D simulations for entire wing designs.
+
 
 
 ## Tools and Technologies
