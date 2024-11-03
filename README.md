@@ -38,12 +38,11 @@ The workflow involves training a predictive model on XFOIL simulation data, whic
 
 ## Roadmap
 
-  [x] Generate XFOIL training data for arbitrary 4- and 5-digit NACA airfoils using automated scripts.
-  [] Design a reward system for airfoil optimization based on XFOIL outputs.
-  [] Train neural networks on the generated data to predict airfoil performance metrics.
-  [] Develop an iterative generator capable of producing optimized airfoil shapes.
-  [] Scale the system to handle 3D simulations for entire wing designs.
-
+- [x] Generate XFOIL training data for arbitrary 4- and 5-digit NACA airfoils using automated scripts.
+- [ ] Design a reward system for airfoil optimization based on XFOIL outputs.
+- [ ] Train neural networks on the generated data to predict airfoil performance metrics.
+- [ ] Develop an iterative generator capable of producing optimized airfoil shapes.
+- [ ] Scale the system to handle 3D simulations for entire wing designs.
 
 
 ## Tools and Technologies
