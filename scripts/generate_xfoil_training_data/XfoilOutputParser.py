@@ -4,7 +4,7 @@ from tqdm import tqdm
 
 class XParser:
     @staticmethod
-    def parse_xfoil_file(naca_number, input_file, output_dir="../data/airfoil_training_data"):
+    def parse_xfoil_file(naca_number, input_file, output_dir="../../data/airfoil_training_data"):
         # Ensure the output directory exists
         os.makedirs(output_dir, exist_ok=True)
         

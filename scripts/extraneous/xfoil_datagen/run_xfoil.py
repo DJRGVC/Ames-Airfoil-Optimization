@@ -5,7 +5,7 @@ from multiprocessing import Pool
 
 def run_xfoil(params):
     naca_number, mach, reynolds = params
-    output_dir = "../data/xfoil_dump"
+    output_dir = "../../data/xfoil_dump"
 
     # Ensure the output directory exists
     os.makedirs(output_dir, exist_ok=True)
@@ -68,7 +68,7 @@ def main(naca_number):
         results = pool.map(run_xfoil, params_list)
 
     # Write all results to the output file once pooling completes
-    output_file = os.path.join("../data/xfoil_dump", f"polar_{naca_number}.txt")
+    output_file = os.path.join("../../data/xfoil_dump/", f"polar_{naca_number}.txt")
     with open(output_file, 'w') as file:
         for result in results:
             file.write(result)

@@ -12,7 +12,7 @@ naca_number = input("Enter the NACA airfoil number (e.g., '2412'): ")
 command = ['python3', 'run_xfoil.py', naca_number] + [str(m) + ',' + str(r) for m in mach_values for r in reynolds_values]
 
 # Ensure the output directory exists
-output_dir = "../data/xfoil_dump"
+output_dir = "../../data/xfoil_dump"
 os.makedirs(output_dir, exist_ok=True)
 
 # Execute the XFOIL script

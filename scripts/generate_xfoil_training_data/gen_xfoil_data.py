@@ -11,7 +11,7 @@ aoa_values = list(range(-20, 21))
 naca_number = input("Enter the NACA airfoil number (e.g., '2412'): ")
 
 # Output file for polar data
-output_file = f"../data/xfoil_dump/polar_{naca_number}.txt"
+output_file = f"../../data/xfoil_dump/polar_{naca_number}.txt"
 
 # Create and open a file to store the polar data
 with open(output_file, 'w') as file:
@@ -37,8 +37,8 @@ with open(output_file, 'w') as file:
                     mach {mach}
                     visc {reynolds}
                     pacc
-                    ../data/xfoil_dump/polar_tmp_save.txt
-                    ../data/xfoil_dump/polar_tmp_dump.txt
+                    ../../data/xfoil_dump/polar_tmp_save.txt
+                    ../../data/xfoil_dump/polar_tmp_dump.txt
                     aseq -20 20 1
 
                     quit
@@ -50,18 +50,18 @@ with open(output_file, 'w') as file:
                 output, errors = process.communicate(xfoil_cmds.encode())
                 
                 # Append output to the main file
-                with open("../data/xfoil_dump/polar_tmp_save.txt", 'r') as tmp_file:
+                with open("../../data/xfoil_dump/polar_tmp_save.txt", 'r') as tmp_file:
                     file.write(tmp_file.read())
                 file.write("\n")
                 
                 # Remove tmp files
-                subprocess.run(['rm', '../data/xfoil_dump/polar_tmp_save.txt'])
-                subprocess.run(['rm', '../data/xfoil_dump/polar_tmp_dump.txt'])
+                subprocess.run(['rm', '../../data/xfoil_dump/polar_tmp_save.txt'])
+                subprocess.run(['rm', '../../data/xfoil_dump/polar_tmp_dump.txt'])
                 
                 # Update progress bar
                 pbar.update(1)
 
 # Parse the final polar file
-XParser.parse_xfoil_file(naca_number, f"../data/xfoil_dump/polar_{naca_number}.txt")
+XParser.parse_xfoil_file(naca_number, f"../../data/xfoil_dump/polar_{naca_number}.txt")
 print(f"Polar data saved to {output_file}")
 

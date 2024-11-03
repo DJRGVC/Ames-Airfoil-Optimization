@@ -1,7 +1,7 @@
 # Ames Airfoil Optimization Project
 
 <p align="center">
-  <img src="updates/images/NAS_logo.png" alt="NASA Logo" width="200"/>
+  <img src="updates/media/NAS_logo.png" alt="NASA Logo" width="200"/>
 </p>
 
 **Author**: Daniel Grant  
