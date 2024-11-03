@@ -10,6 +10,10 @@ This week, I successfully got XFOIL running on my Mac and compiled a CSV with th
 
 I am currently facing challenges with XFOIL parameters and convergence issues at high Mach and Reynolds number configurations.
 
+## Video
+
+[View XFOIL Simulation Video](../media/xfoil_automated_testing.mp4)
+
 ## XFOIL Configuration Details
 
 Here are the input settings used for XFOIL, with varying Mach and Reynolds numbers for each run. Comments have been added for clarity:
@@ -48,13 +52,6 @@ I have not yet conducted a thorough literature review of similar work, as my foc
 
 Once I have my NASA device activated, I would like to start running OVERFLOW simulations for the NACA 3415 airfoil to compare with my XFOIL simulation data.
 
-## Images
 
-![XFOIL Optimization Data 1](../images/xfoil_output_1.png)
-![XFOIL Optimization Data 2](../images/xfoil_output_2.png)
-
-## Video
-
-[View XFOIL Simulation Video](../videos/xfoil_simulation.mp4)
 
 
