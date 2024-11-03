@@ -10,14 +10,10 @@ This week, I successfully got XFOIL running on my Mac and compiled a CSV with th
 
 I am currently facing challenges with XFOIL parameters and convergence issues at high Mach and Reynolds number configurations.
 
-## Video
+## XFOIL Simulation Video
 
-[View XFOIL Simulation Video]()
 
-<video width="640" height="360" controls>
-  <source src="../media/xfoil_automated_testing.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/c9551c5f-8523-4c61-a86a-f744a5e7a365
 
 
 ## XFOIL Configuration Details
