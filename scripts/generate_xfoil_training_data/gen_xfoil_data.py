@@ -27,13 +27,15 @@ with open(output_file, 'w') as file:
                     naca {naca_number}
                     pane
                     ppar
-                    n 100
-                    p 0.75
+                    n 200
+                    P 1
+                    T 1
+                    R 1
 
 
 
                     oper
-                    iter 600
+                    iter 800
                     mach {mach}
                     visc {reynolds}
                     pacc
