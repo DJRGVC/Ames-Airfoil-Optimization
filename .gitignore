@@ -4,3 +4,4 @@ data/xfoil_dump/*
 *.DS_Store
 *.pyc
 */__pycache__/*
+MPRs/*
