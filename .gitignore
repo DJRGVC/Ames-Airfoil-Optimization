@@ -1,6 +1,7 @@
 Xfoil/*
 data/airfoil_training_data/*
 data/xfoil_dump/*
+data/airfoil_training_data/ext/*
 *.DS_Store
 *.pyc
 */__pycache__/*
